@@ -1,3 +1,55 @@
-h1 {
-  text-decoration: underline;
+html {
+  height: flex;
+  background: radial-gradient(ellipse at center, #0a2e38 0%, black 70%);
+}
+
+body {
+  font-family: "Share Tech Mono", monospace;
+  background-color: #6e316ea1;
+  margin: 0;
+  display: flex;
+  object-position: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  align-content: center;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.clock {
+  font-family: "Share Tech Mono", monospace;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #a12e7f;
+  text-shadow:
+    0 0 95px #cf29b9,
+    0 0 85px rgba(10, 175, 230, 0);
+}
+
+#time {
+  letter-spacing: auto;
+  font-size: 200px;
+  padding: 5px 2;
+}
+
+#date {
+  color: #882a6c;
+  text-shadow:
+    0 0 85px #883870,
+    0 0 105px rgba(47, 170, 211, 0);
+  letter-spacing: 1px;
+  font-size: 84px;
+  text-align: center;
+}
+
+title {
+  display: block;
 }
